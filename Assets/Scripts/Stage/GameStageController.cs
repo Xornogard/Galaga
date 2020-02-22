@@ -6,6 +6,7 @@ using UnityEngine;
 public class GameStageController : MonoBehaviour
 {
 	#region MEMBERS
+	#pragma warning disable 0649
 
 	private event Action<AlienEnemy> OnAlienEnemyKilled = delegate { };
 	private event Action<int> OnNewStagePrepared = delegate { };
@@ -18,6 +19,7 @@ public class GameStageController : MonoBehaviour
 	[SerializeField]
 	private EnemySpawner enemySpawner;
 
+	#pragma warning restore 0649
 	#endregion
 
 	#region PROPERTIES

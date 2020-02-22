@@ -7,10 +7,12 @@ using UnityEngine;
 public class GameStageSettings : ScriptableObject
 {
 	#region MEMBERS
+	#pragma warning disable 0649
 
 	[SerializeField]
 	private List<GameStageWave> alienStageWaves;
 
+	#pragma warning restore 0649
 	#endregion
 
 	#region PROPERTIES

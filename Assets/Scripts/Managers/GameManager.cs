@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
 public class GameManager : MonoBehaviour
 {
 	#region MEMBERS
+	#pragma warning disable 0649
 
 	[SerializeField]
 	private PlayerManager playerManager;
@@ -19,9 +19,7 @@ public class GameManager : MonoBehaviour
 	[SerializeField]
 	private UIManager uiManager;
 
-
-	//TODO: Move to another manager.
-
+	#warning TODO: Move to another manager.
 	[SerializeField]
 	private ProbabilitySettings powerUpProbability;
 
@@ -31,6 +29,7 @@ public class GameManager : MonoBehaviour
 	[SerializeField]
 	private PowerUpHolder powerUpHolderPrefab;
 
+	#pragma warning restore 0649
 	#endregion
 
 	#region PROPERTIES

@@ -5,6 +5,7 @@ using UnityEngine;
 public class FormationGrid : MonoBehaviour
 {
 	#region MEMBERS
+	#pragma warning disable 0649
 
 	[SerializeField]
 	private Vector2 cellSize;
@@ -12,6 +13,7 @@ public class FormationGrid : MonoBehaviour
 	[SerializeField]
 	private Vector2 spacing;
 
+	#pragma warning restore 0649
 	#endregion
 
 	#region PROPERTIES

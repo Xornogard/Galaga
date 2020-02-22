@@ -6,6 +6,7 @@ using UnityEngine;
 public abstract class Spaceship : MonoBehaviour, IDamageable, IKillable
 {
     #region MEMBERS
+    #pragma warning disable 0649
 
     [SerializeField]
     private bool godMode;
@@ -35,11 +36,12 @@ public abstract class Spaceship : MonoBehaviour, IDamageable, IKillable
     private Weapon specialWeapon;
 
 	[SerializeField]
-	private Rigidbody2D rigidbody;
+	private new Rigidbody2D rigidbody;
 
     [SerializeField]
     private float speed = 10f;
 
+    #pragma warning restore 0649
     #endregion
 
     #region PROPERTIES

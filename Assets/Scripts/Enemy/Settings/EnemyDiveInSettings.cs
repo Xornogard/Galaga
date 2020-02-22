@@ -6,6 +6,7 @@ using UnityEngine;
 public class EnemyDiveInSettings : ScriptableObject
 {
 	#region MEMBERS
+	#pragma warning disable 0649
 
 	[SerializeField]
 	private ProbabilitySettings probabilitySettings;
@@ -19,6 +20,7 @@ public class EnemyDiveInSettings : ScriptableObject
 	[SerializeField]
 	private AudioClip diveInAudioClip;
 
+	#pragma warning restore 0649
 	#endregion
 
 	#region PROPERTIES

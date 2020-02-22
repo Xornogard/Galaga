@@ -7,6 +7,7 @@ using Random = UnityEngine.Random;
 public class AlienEnemy : MonoBehaviour, IDamageable, IKillable
 {
 	#region MEMBERS
+	#pragma warning disable 0649
 
 	private event Action<AlienEnemy> OnAlienDeath = delegate { };
 
@@ -37,6 +38,7 @@ public class AlienEnemy : MonoBehaviour, IDamageable, IKillable
 	[SerializeField]
 	private Animator animator;
 
+	#pragma warning restore 0649
 	#endregion
 
 	#region PROPERTIES

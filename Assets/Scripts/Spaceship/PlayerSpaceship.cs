@@ -4,12 +4,14 @@ using UnityEngine;
 public class PlayerSpaceship : Spaceship
 {
     #region MEMBERS
+    #pragma warning disable 0649
 
     private event Action OnPlayerDeath = delegate { };
 
     [SerializeField]
     private float widthBoundaries;
 
+    #pragma warning restore 0649
     #endregion
 
     #region PROPERTIES

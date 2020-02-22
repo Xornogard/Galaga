@@ -7,10 +7,12 @@ using Random = UnityEngine.Random;
 public class EnemySpawner : MonoBehaviour
 {
 	#region MEMBERS
+	#pragma warning disable 0649
 
 	[SerializeField]
 	private FormationGrid formationGrid;
 
+	#pragma warning restore 0649
 	#endregion
 
 	#region PROPERTIES

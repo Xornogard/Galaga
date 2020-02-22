@@ -7,6 +7,7 @@ using UnityEngine;
 public class AlienStageWaveSettings : ScriptableObject
 {
 	#region MEMBERS
+	#pragma warning disable 0649
 
 	[SerializeField]
 	private AlienEnemy alienEnemy;
@@ -23,6 +24,7 @@ public class AlienStageWaveSettings : ScriptableObject
 	[SerializeField]
 	private AlienFormationSettings formationSettings;
 
+	#pragma warning restore 0649
 	#endregion
 
 	#region PROPERTIES

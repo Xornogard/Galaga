@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class MusicManager : MonoBehaviour
 {
-
 	#region MEMBERS
+	#pragma warning disable 0649
 
 	[SerializeField]
 	private AudioSource musicSource;
@@ -22,6 +22,7 @@ public class MusicManager : MonoBehaviour
 	[SerializeField]
 	private AudioClip gameWonMusic;
 
+	#pragma warning restore 0649
 	#endregion
 
 	#region PROPERTIES
@@ -55,7 +56,6 @@ public class MusicManager : MonoBehaviour
 	{
 		SetMusicClip(GameWonMusic);
 	}
-
 
 	private void SetMusicClip(AudioClip musicClip)
 	{

@@ -8,6 +8,7 @@ using DG.Tweening;
 public class UIManager : MonoBehaviour
 {
 	#region MEMBERS
+	#pragma warning disable 0649
 
 	private int MAXIMUM_POSSIBLE_SCORE = 99999;
 
@@ -50,6 +51,7 @@ public class UIManager : MonoBehaviour
 	[SerializeField]
 	private GameObject pauseGamePanel;
 
+	#pragma warning restore 0649
 	#endregion
 
 	#region PROPERTIES

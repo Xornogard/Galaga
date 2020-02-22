@@ -6,13 +6,14 @@ using UnityEngine;
 public class PlayerManager : MonoBehaviour
 {
 	#region MEMBERS
+	#pragma warning disable 0649
 
 	private event Action OnPlayerDeath = delegate { };
 	private event Action OnPlayerGameOver = delegate { };
 	private event Action<float> OnPlayerSpecialWeaponChargeChange = delegate { };
 	private event Action<int> OnPlayerLifeCountChange = delegate { };
 
-    [SerializeField]
+	[SerializeField]
 	private int playerLifesCount;
 
 	[SerializeField]
@@ -27,6 +28,7 @@ public class PlayerManager : MonoBehaviour
 	[SerializeField]
 	private Vector2 playerSpawnPoint;
 
+	#pragma warning restore 0649
 	#endregion
 
 	#region PROPERTIES

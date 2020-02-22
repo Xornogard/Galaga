@@ -6,10 +6,12 @@ using UnityEngine;
 public class GameStageWave
 {
 	#region MEMBERS
+	#pragma warning disable 0649
 
 	[SerializeField]
 	private List<AlienStageWaveSettings> alienSettings;
 
+	#pragma warning restore 0649
 	#endregion
 
 	#region PROPERTIES

@@ -7,6 +7,7 @@ using System;
 public class PowerUpHolder : MonoBehaviour, IDamageable
 {
 	#region MEMBERS
+	#pragma warning disable 0649
 
 	public Action<IPowerUp> OnHit = delegate { };
 
@@ -16,6 +17,7 @@ public class PowerUpHolder : MonoBehaviour, IDamageable
 	[SerializeField]
 	private float speed;
 
+	#pragma warning restore 0649
 	#endregion
 
 	#region PROPERTIES

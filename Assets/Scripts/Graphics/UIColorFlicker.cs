@@ -9,6 +9,7 @@ using UnityEngine.UI;
 public class UIColorFlicker : MonoBehaviour
 {
     #region MEMBERS
+    #pragma warning disable 0649
 
     [SerializeField]
     private Graphic targetGraphic;
@@ -22,6 +23,7 @@ public class UIColorFlicker : MonoBehaviour
     [SerializeField]
     private Color endColor = Color.white;
 
+    #pragma warning restore 0649
     #endregion
 
     #region PROPERTIES

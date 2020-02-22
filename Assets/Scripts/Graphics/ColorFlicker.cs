@@ -8,6 +8,7 @@ using DG.Tweening.Core;
 public class ColorFlicker : MonoBehaviour
 {
     #region MEMBERS
+    #pragma warning disable 0649
 
     [SerializeField]
     private Renderer targetRenderer;
@@ -21,6 +22,7 @@ public class ColorFlicker : MonoBehaviour
     [SerializeField]
     private Color endColor = Color.white;
 
+    #pragma warning restore 0649
     #endregion
 
     #region PROPERTIES

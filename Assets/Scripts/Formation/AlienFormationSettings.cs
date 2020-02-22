@@ -6,10 +6,12 @@ using UnityEngine;
 public class AlienFormationSettings
 {
 	#region MEMBERS
-
+	#pragma warning disable 0649
+	
 	[SerializeField]
 	private int rowsCount;
 
+	#pragma warning restore 0649
 	#endregion
 
 	#region PROPERTIES

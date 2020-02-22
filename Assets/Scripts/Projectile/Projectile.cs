@@ -7,6 +7,7 @@ using UnityEngine;
 public class Projectile : MonoBehaviour
 {
 	#region MEMBERS
+	#pragma warning disable 0649
 
 	[SerializeField]
 	private bool dontDestroyOnHit;
@@ -20,6 +21,7 @@ public class Projectile : MonoBehaviour
 	[SerializeField]
 	private Animator animator;
 
+	#pragma warning restore 0649
 	#endregion
 
 	#region PROPERTIES
@@ -33,7 +35,6 @@ public class Projectile : MonoBehaviour
 	private Animator Animator => animator;
 
 	private float Speed { get; set; }
-
 
 	private bool AlreadyHitTarget { get; set; }
 

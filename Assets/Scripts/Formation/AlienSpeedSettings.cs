@@ -6,6 +6,7 @@ using UnityEngine;
 public struct AlienSpeedSettings
 {
 	#region MEMBERS
+	#pragma warning disable 0649
 
 	[SerializeField]
 	private float appearSpeed;
@@ -13,6 +14,7 @@ public struct AlienSpeedSettings
 	[SerializeField]
 	private float diveInSpeed;
 
+	#pragma warning restore 0649
 	#endregion
 
 	#region PROPERTIES

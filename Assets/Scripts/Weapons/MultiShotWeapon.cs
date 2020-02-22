@@ -6,6 +6,7 @@ using UnityEngine;
 public class MultiShotWeapon : Weapon
 {
 	#region MEMBERS
+	#pragma warning disable 0649
 
 	private const int MIN_SHOTS_COUNT = 2;
 	private const int MAX_SHOTS_COUNT = 6;
@@ -16,6 +17,7 @@ public class MultiShotWeapon : Weapon
 	[SerializeField]
 	private float shotWidth;
 
+	#pragma warning restore 0649
 	#endregion
 
 	#region PROPERTIES
