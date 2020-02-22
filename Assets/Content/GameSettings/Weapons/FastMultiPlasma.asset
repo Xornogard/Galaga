@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fff4f656fe518749b1f4115d0768b94, type: 3}
+  m_Name: FastMultiPlasma
+  m_EditorClassIdentifier: 
+  shotAudioClip: {fileID: 8300000, guid: 8b6e110226ad04747b56929b8260cb0c, type: 3}
+  projectile: {fileID: 9111125433814139242, guid: 1868f1b20a8028c4cacac98c4f75eb07,
+    type: 3}
+  shotCooldown: 0.1
+  shotSpeed: 30
+  shotsCount: 3
+  shotWidth: 0.6

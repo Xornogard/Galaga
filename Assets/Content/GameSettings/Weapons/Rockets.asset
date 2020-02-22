@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f94b41d4c60530545a4e6c0fa72c4313, type: 3}
+  m_Name: Rockets
+  m_EditorClassIdentifier: 
+  shotAudioClip: {fileID: 8300000, guid: c7b0126d98ce41f40a8a0e84c915f171, type: 3}
+  projectile: {fileID: 6266485531730045230, guid: 62fe8bf6cbd56af4883da1f639bf9020,
+    type: 3}
+  shotCooldown: 0.2
+  shotSpeed: 10

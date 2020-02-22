@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66fcc288f399b9a42887d7e3fefdd045, type: 3}
+  m_Name: Stage2
+  m_EditorClassIdentifier: 
+  alienStageWaves:
+  - alienSettings:
+    - {fileID: 11400000, guid: a260c7d9a80635349875e3c0e5d583dc, type: 2}
+    - {fileID: 11400000, guid: a260c7d9a80635349875e3c0e5d583dc, type: 2}
+    - {fileID: 11400000, guid: 9a022de3df1cfce458659daafe72048e, type: 2}
+  - alienSettings:
+    - {fileID: 11400000, guid: fd54073ae3305b840987074364fbc92e, type: 2}
+    - {fileID: 11400000, guid: 8a177efd336af854e8cd503298b37eb6, type: 2}
+    - {fileID: 11400000, guid: 9a022de3df1cfce458659daafe72048e, type: 2}
+    - {fileID: 11400000, guid: f6cd5e50ff3e5b7408f6cee3bf680ec0, type: 2}
+  - alienSettings:
+    - {fileID: 11400000, guid: 6385544999e3e2846a51be056d7bd76d, type: 2}
+    - {fileID: 11400000, guid: 1ad805dd16723cc4e8d4f396bb742caf, type: 2}
+    - {fileID: 11400000, guid: 266757fd149f55c41b536b04a2374495, type: 2}
+    - {fileID: 11400000, guid: b5f63c053b5555c4f853a3b24129fd0c, type: 2}
